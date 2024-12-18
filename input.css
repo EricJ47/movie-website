@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+    .btn{
+        @apply hover:shadow-lg border transition hover:-translate-y-0.5 duration-150;
+    }
+}
+
+
+@layer utilities {
+    #hero {
+      @apply bg-[url('../images/hero3.jpg')] bg-no-repeat bg-cover ;
+    }
+  }
+  
+
+
+#login{
+    background-image: url('../images/background-theater.jpg');
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-position: center;
+}
+
+.fit-field{
+    @apply  h-7 p-6 border border-gray-600 rounded-full;
+}
+
+
