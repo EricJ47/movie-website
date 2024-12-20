@@ -6,15 +6,19 @@ module.exports = {
       backgroundSize: {
         'custom-size': '1928px 1080px ',
       },
+
+      
       
       screens: {
-        'sm': '480px',
-        'md': '1028px',
-        'lg': '1440px',
+        sm: '480px',
+        md: '768px',
+        lg: '976px',
+        xl: '1440px',
       },
 
       width: {
         'desktop': '500px',
+        'tablet': '309px',
         'mobile': '375px',
       },
       fontFamily: {

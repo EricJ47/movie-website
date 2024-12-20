@@ -11,6 +11,9 @@ const hidePasswordIcon2 = document.getElementById('hidePasswordIcon2');
 
 
 
+
+
+
 // password
     togglePassword.addEventListener('click', function () {
     const type = passwordInput.getAttribute('type') === 'password' ? 'text' : 'password';
