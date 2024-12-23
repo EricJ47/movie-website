@@ -856,18 +856,6 @@ video {
   height: 100%;
 }
 
-.h-80 {
-  height: 20rem;
-}
-
-.h-auto {
-  height: auto;
-}
-
-.h-screen {
-  height: 100vh;
-}
-
 .min-h-screen {
   min-height: 100vh;
 }
@@ -939,14 +927,6 @@ video {
 
 .w-mobile {
   width: 375px;
-}
-
-.w-auto {
-  width: auto;
-}
-
-.w-screen {
-  width: 100vw;
 }
 
 .max-w-full {
@@ -1080,12 +1060,6 @@ video {
   --tw-space-y-reverse: 0;
   margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
-}
-
-.space-x-4 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(1rem * var(--tw-space-x-reverse));
-  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .divide-y > :not([hidden]) ~ :not([hidden]) {
@@ -1603,24 +1577,8 @@ video {
 }
 
 @media (min-width: 480px) {
-  .sm\:justify-start {
-    justify-content: flex-start;
-  }
-
   .sm\:justify-center {
     justify-content: center;
-  }
-
-  .sm\:space-x-0 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-x-reverse: 0;
-    margin-right: calc(0px * var(--tw-space-x-reverse));
-    margin-left: calc(0px * calc(1 - var(--tw-space-x-reverse)));
-  }
-
-  .sm\:space-x-2 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-x-reverse: 0;
-    margin-right: calc(0.5rem * var(--tw-space-x-reverse));
-    margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
   }
 }
 
@@ -1699,12 +1657,6 @@ video {
     margin-bottom: calc(0px * var(--tw-space-y-reverse));
   }
 
-  .md\:space-x-2 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-x-reverse: 0;
-    margin-right: calc(0.5rem * var(--tw-space-x-reverse));
-    margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
-  }
-
   .md\:p-16 {
     padding: 4rem;
   }
@@ -1754,12 +1706,6 @@ video {
 
   .lg\:justify-center {
     justify-content: center;
-  }
-
-  .lg\:space-x-16 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-x-reverse: 0;
-    margin-right: calc(4rem * var(--tw-space-x-reverse));
-    margin-left: calc(4rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .lg\:py-4 {
